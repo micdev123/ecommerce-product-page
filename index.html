@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <header id="header">
+    <div class="navigation">
+      <div class="navigation_left">
+        <div class="brand">
+          <img src="./images/logo.svg" alt="" class="logo">
+        </div>
+        <ul class="nav">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="navigation_right">
+        <div class="cart">
+          <p class="incart">0</p>
+          <i class="fa-solid fa-cart-shopping cart_icon"></i>
+        </div>
+        <div class="avater_img">
+          <img src="./images/image-avatar.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="cart_container">
+      <p class="cart_head">
+        Cart
+      </p>
+      <div class="cart_border"></div>
+      <div class="cart_item">
+        <div class="item_img">
+          <img src="./images/image-product-1-thumbnail.jpg" alt="">
+        </div>
+        <div class="item_info">
+          <p class="item_name">
+            Fall Limited Edition Sneakers
+          </p>
+          <p class="item_price">
+            $125.00 <span class="qty">* 3</span><span class="total">$125.00</span>
+          </p>
+        </div>
+        <i class="fa-solid fa-trash trash"></i>
+      </div>
+      <div class="checkout">
+        <button class="checkout_btn">
+          Checkout
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="main_container">
+      <div class="main_left">
+        <div class="light_box">
+          <img src="./images/image-product-1.jpg" alt="">
+        </div>
+        <div class="thumbnails">
+          <div class="img active">
+            <img src="./images/image-product-1-thumbnail.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="./images/image-product-2-thumbnail.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="./images/image-product-3-thumbnail.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="./images/image-product-4-thumbnail.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="main_right">
+        <h2 class="title1">
+          Sneaker Company
+        </h2>
+        <h2 class="title2">
+          Fall Limited Edition Sneakers
+        </h2>
+        <p class="desc">
+          These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.
+        </p>
+        <p class="now_price">$125.00 <span>50%</span></p>
+        <p class="initial_price">$250.00</p>
+
+        <div class="main_left_footer">
+          <div class="quantity">
+            <i class="fas fa-plus"></i>
+            <span>0</span>
+            <i class="fas fa-minus"></i>
+          </div>
+          <button class="add_item">
+            <i class="fa-solid fa-cart-shopping cart_icon"></i>
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
